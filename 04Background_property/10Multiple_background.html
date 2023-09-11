@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple-background</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        div[class*="image"] {
+            margin: 10px auto;
+            height: 550px;
+            width: 90%;
+            color: blue;
+        }
+
+        .image1 {
+            background: url(../../github/CSS/Image/peacock.jpeg),url(../../github/CSS/Image/tiger.jpg);
+            background-repeat: no-repeat;
+            background-size: 300px, cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Multiple-background</h1>
+    <div class="image1">Multiple-background</div>
+
+
+
+</body>
+
+</html>

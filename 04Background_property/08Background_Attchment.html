@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background clip</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        div[class*="image"] {
+            background-image: url(../../github/CSS/Image/html.jpg);
+            margin: 10px auto;
+            height: 550px;
+            width: 100%;
+            color: blue;
+        }
+
+        .image1 {
+            background-attachment: fixed;
+            border: 10px dashed rgb(15, 243, 26);
+            background-repeat: no-repeat;
+            padding: 50px;
+            background-color: black;
+        }
+
+        .image2 {
+            background-clip: content-box;
+            border: 10px dashed rgb(199, 8, 8);
+            background-repeat: no-repeat;
+            padding: 50px;
+            background-color: black;
+        }
+
+        .image3 {
+            background-clip: padding-box;
+            border: 10px dashed rgb(6, 248, 127);
+            background-repeat: no-repeat;
+            background-color: black;
+            padding: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Background clip</h1>
+    <div class="image1">Attchment</div>
+    <div class="image2">Attchment</div>
+    <div class="image3">Attchment</div>
+
+
+</body>
+
+</html>

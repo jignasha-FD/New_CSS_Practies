@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseduo Element selector</title>
+    <style>
+        h1::after
+        {
+            content: " Pseduo Element selector";
+        }
+        h1::before
+        {
+            content: "gm ";
+        }
+        p::first-letter
+        {
+            color: blueviolet;
+            font-size: 30px;
+        }
+        p::first-line
+        {
+            color: brown;
+        }
+        p::selection
+        {
+            color: chartreuse;
+        }
+
+        </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Minus maxime veniam dolorem commodi ipsa omnis ratione impedit culpa reiciendis, temporibus enim voluptatum asperiores doloremque ipsam?</p>
+
+</body>
+</html>
